@@ -11,7 +11,7 @@ function setup(){
 }
 
 function draw(){
-    background(0);
+    background(255,255,255);
     display();
     move();
     bounce();
@@ -23,7 +23,7 @@ function display(){
     stroke(255);
     strokeWeight(4);
     fill(kiaraRed,kiaraGreen,kiaraBlue);
-    ellipse(x, y, 50, 50);
+    rect(x, y, 50, 50);
 }
 
 function move(){
